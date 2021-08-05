@@ -1,0 +1,111 @@
+
+body, ul, h1, li, h2, a {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color:white;
+    color: #334257;
+   
+  
+  }
+  main{
+    max-width:100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+   } 
+#image {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+#img-caption{
+    line-height: 2em;
+    color: #293B5F;
+    font-weight: bold;
+  
+}
+
+li {
+    line-height: 2em; 
+    padding-left: 10px;
+   
+}
+#tribute-info{
+    text-decoration:  underline;
+    font-size: 30px;
+}
+p {
+  padding-left:20px;
+}
+header{
+    background-color:#548CA8;
+    padding: 10px;
+   text-align: center;
+   position: fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left: 0;
+   }
+   header h1{
+       color: white;
+       border: 8px solid white;
+       padding: 5px 10px;
+       display:inline-block ;
+       border-radius: 36px;
+   }
+
+h2 {
+  padding-top: 85px;
+  color: #548CA8;
+  font-size: 48px;
+}
+
+footer{
+  font-size: 20px;
+  background: #548CA8;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+
+}
+ /**!                                                             pseudo calsses                                *****/
+
+p::selection{ /* applies for all p tags */
+  background-color: #03256C;
+  color: white;
+}
+em::selection{
+
+  background-color: #03256C;
+  color: white;
+}
+b::selection{
+
+  background-color:#ccba99;
+  color:#03256C;;
+}
+#image:hover{
+ 
+  position: relative;
+  top: 10px; /* moves it -4 up << downwards >> */
+
+}
+@media only screen and (max-width: 800px) 
+{
+  #image {
+    width: 85vw;
+  }
+}
