@@ -1,2 +1,2 @@
 # Build a Tribute Page Passed
-- First web programming projects in Responsive Web Design Course - freeCodeCamp .
+- First web programming project in Responsive Web Design Course - freeCodeCamp .
